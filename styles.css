@@ -30,4 +30,18 @@ h1 {
     min-width: 200px;
     border-radius: 10px;
     box-shadow: 0 4px rgba(0, 0, 0, 0.3);
+    background-image: url("images/snare.png");
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: hotpink;
+}
+
+.btn:active {
+    background-size: 105%;
 }
